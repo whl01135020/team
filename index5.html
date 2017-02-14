@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>西安</title>
+<link rel="stylesheet" type="text/css" href="css/xian.css">
+
+<script>
+window.onload=function(){
+	var oDiv=document.getElementById('lun');
+	var oDiv2=document.getElementById('dong');
+	var aImg=oDiv.getElementsByTagName('img');
+	
+	var timer=null;
+	var speed=-3;
+	oDiv2.innerHTML=oDiv2.innerHTML+oDiv2.innerHTML;	
+	oDiv2.style.width=aImg[0].offsetWidth*aImg.length+'px';
+	
+	function sport(){
+		if(oDiv2.offsetLeft<-(oDiv2.offsetWidth)/2)
+		{
+			oDiv2.style.left=0;	
+		}
+		else
+		{
+			oDiv2.style.left=oDiv2.offsetLeft+speed+'px';	
+		}
+		}
+	timer=setInterval(sport,30);
+	oDiv2.onmouseover=function(){
+		clearInterval(timer);
+		};
+		oDiv2.onmouseout=function(){
+			timer=setInterval(sport,30);
+			};
+};
+</script>
+</head>
+
+<body>
+<a target="_blank" href="index2.html"><button id="btn1">next city</button></a>
+<div class="top"><p class="font01">魅力西安</p></div>
+<div class="zi"><p class="font04"><br>&nbsp;&nbsp;&nbsp;&nbsp;     西安，古称“长安”、“镐京”，是陕西省省会，地处关中平原中部，北濒渭河，南依秦岭，八水润长安。长安自古帝王都，西安拥有着7000多年文明史、3100多年建城史、1100多年的建都史，是中国四大古都之一，中华文明和中华民族重要发祥地之一，丝绸之路的起点。丰镐都城、秦咸阳宫、兵马俑，汉未央宫、长乐宫，隋大兴城，唐大明宫、兴庆宫等勾勒出“长安情结”。西安是中国最佳旅游目的地、全国文明城市之一，国家重要的科教中心，有两项六处遗产被列入《世界遗产名录》，分别是：秦始皇陵及兵马俑、大雁塔、小雁塔、唐长安城大明宫遗址、汉长安城未央宫遗址、兴教寺塔。</p></div>
+<div class="box">
+	<div class="jieshao">
+    	<div class="a"><div class="abg"><p class="font02">&nbsp;&nbsp;西安钟楼是我国目前规<br>模最大，建筑最宏伟，保存<br>最完整的明代建筑之一。它<br>以金碧辉煌的雄姿踞于西安<br>城中心，东西南北四条大街<br>的交汇处，是古城西安的标<br>志建筑，被誉为“古城明珠”。</p></div></div>
+        <div class="b"><div class="bbg"><p class="font03">&nbsp;&nbsp;秦始皇陵兵马俑属于世界<br>八大奇迹，它位于西安市临潼<br>区秦始皇陵以东1.5公里处的兵<br>马俑坑内。它是古代墓葬雕塑的<br>一个类别，坑中所埋葬的浩大佣<br>群是秦王朝强大军队的缩影。</p></div></div>
+        <div class="c"><div class="cbg"><p class="font02">&nbsp;&nbsp;肉夹馍当属西安最具特<br>色的美味小吃了，它制作简<br>单方便，在又脆又香的饼里<br>放入卤汁酱过的猪肉末，美<br>味直逼你的胃底，一定不要<br>错过它哟！</p></div></div>
+    </div>
+	<div id="lun">
+       <div id="dong"><img src="images/xi10.jpg"/><img src="images/xi11.png"/><img src="images/xi15.jpg"/><img src="images/xi5.jpg"/><img src="images/xi8.jpg"/></div>
+    </div>
+</div>
+<div class="bottom"><p class="font05">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xi'an, the eternal city, records the great changes of the Chinese nation just like a living history book.Called Chang'an in ancient times, Xi’an is one of the birthplaces of the ancient civilization in the Yellow River Basin area of the country. During Xi’an's 3,100 year development, 13 dynasties such as Western Zhou (11th century BC - 771 BC), Qin (221 BC - 206 BC), Western Han (206 BC - 24 AD) and Tang (618 - 907) placed their capitals here. So far, Xi’an enjoys equal fame with Athens, Cairo, and Rome as one of the four major ancient civilization capitals.Xi'an is the capital of Shaanxi province, located in the southern part of the Guanzhong Plain. With the Qinling Mountains to the south and the Weihe River to the north, it is in a favorable geographical location surrounded by water and hills. It has a semi-moist monsoon climate and there is a clear distinction between the four seasons. Except the colder winter, any season is relatively suitable for traveling.The cultural and historical significance of the area, as well as the abundant relics and sites, help Xi'an enjoy the laudatory title of 'Natural History Museum'. The Museum of Terra Cotta Warriors and Horses is praised as 'the eighth major miracle of the world', Mausoleum of Emperor Qin Shi Huang is listed on the World Heritage List, and the City Wall of the Ming Dynasty (1368 - 1644) is the largest and most intact Ming Dynasty castle in the world. </p></div>
+</body>
+</html>

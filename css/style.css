@@ -1,0 +1,126 @@
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background:url(../images/vv.jpg);
+	
+}
+.top{
+	width:800px;
+	height:240px;
+	background:;
+	margin:auto;
+}
+.font02{
+	font-family:"宋体";
+	font-size:4em;
+	color:#FF7575;
+	padding:30px 120px;
+	text-shadow:1px 1px 1px #000;
+}
+.font03{
+	font-family:"宋体";
+	font-size:3em;
+	color:#D2D200;
+	text-align:center;
+	text-shadow:1px 1px 1px #000;
+}
+.mid{
+	width:900px;
+	height:780px;
+	margin:auto;
+	
+}
+h1{
+		font-family: 黑体;
+		font-size: 24px;
+		color:#FF2D2D;
+		line-height: 48px;
+		padding:190px 15px;;
+		float:left;
+	}
+.a{
+	width:380px;
+	height:252px;
+	border:8px solid #FFFFFF;
+	background:url(../images/cheng3.jpg);
+	-moz-transform:rotate(-21deg);
+	-webkit-transform:rotate(-21deg);
+	float:left;
+}
+.a:hover,.d:hover{
+	-webkit-transform:rotate(-10deg);
+		-moz-transform:rotate(-10deg);
+		-webkit-transition:all 3s ease-in-out 3s;
+}
+.a .abg,.d .dbg{
+		width: 380px;
+		height: 252px;
+		color:#000;
+		background:#fff;
+		opacity: 0;
+	}
+.font01{
+	font-family:"宋体";
+	font-size:18px;
+	color:#F00;
+	font-weight:bold;
+	text-align:left;
+}
+.a .abg:hover,.d .dbg:hover{
+		opacity: .7;
+		-webkit-transition:all 3s ease-in-out 3s;
+	}
+.b{
+	width:380px;
+	height:252px;
+	border:8px solid #FFFFFF;
+	background:url(../images/bei2.jpg);
+	margin-left:45px;
+	-moz-transform:rotate(21deg);
+	-webkit-transform:rotate(21deg);
+	float:left;	
+}
+.b:hover,.c:hover{
+	-webkit-transform:rotate(10deg);
+		-moz-transform:rotate(10deg);
+		-webkit-transition:all 3s ease-in-out 3s;
+}
+.b .bbg,.c .cbg{
+		width: 380px;
+		height: 252px;
+		color:#000;
+		background:#fff;
+		opacity: 0;
+	}
+.b .bbg:hover,.c .cbg:hover{
+		opacity: .7;
+		-webkit-transition:all 3s ease-in-out 3s;
+	}
+.c{
+	width:380px;
+	height:252px;
+	border:8px solid #FFFFFF;
+	margin:84px 20px;;
+	background:url(../images/xi1.jpg);
+	-moz-transform:rotate(18deg);
+	-webkit-transform:rotate(18deg);
+	float:left;
+	
+}
+
+.d{
+	width:380px;
+	height:250px;
+	border:8px solid #FFFFFF;
+	margin:87px 12px;
+	background:url(../images/gui1.jpg);
+	-moz-transform:rotate(-15deg);
+	-webkit-transform:rotate(-15deg);
+	float:left;
+}
+
+
+

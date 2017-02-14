@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>北京</title>
+<link rel="stylesheet" type="text/css" href="css/beijing.css">
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script>
+window.onload=function(){
+	var oMenu=document.getElementById('menu');
+	var oLi=oMenu.getElementsByTagName('li');
+	var oBox=document.getElementsByClassName('eat');
+	//alert(oLi.length);
+	//alert(oBox.length);
+
+
+	for(var i=0;i<oLi.length;i++)
+	{
+		oLi[i].index=i;	
+	
+	}
+	for(var i=0;i<oLi.length;i++)
+   		{
+   			
+   			oLi[i].onmouseover=function(){
+				
+				for(var i=0;i<oLi.length;i++)
+				{
+					oBox[i].style.display='none';	
+				}
+				
+   				var a=this.index;
+   				oBox[a].style.display='block';
+   		}
+   		
+   		}
+
+	};
+</script>
+<script>
+$(function(){
+	$('.b img').hover(function(){
+		$(this).css({'width':'200px','height':'200px'});
+		},function(){
+			$(this).css({'width':'120px','height':'120px'});
+			
+			});
+	
+	});
+</script>
+</head>
+
+<body>
+	<a target="_blank" href="index4.html"><button id="btn1">next city</button></a>
+	<div id="tittle">
+    	<div class="a"><p class="font01">&nbsp;&nbsp;北京，一个家喻户晓的名字。或许它也是许多中国人以及国外人都想去一睹风貌的地方，这个中国首都有太多的历史与故事，它的故事每天都在更新。<br>&nbsp;&nbsp;京剧是中国的“国粹”、国剧，已有200年历史，享誉海内外。又称
+“皮黄”，由“西皮”和“二黄”两种基本腔调组成它的音乐素材，也兼唱一些地方小曲调和昆曲曲牌。它形成于北京，时间是在1840年前后，盛行于20世纪三、四十年代。现在它仍是具有世界级影响的大剧种。它的行当全面、表演成熟、气势宏美，是近代中国汉族戏曲的代表。
+</p></div>
+        <div class="b"><img src="images/658.jpg"><img src="images/f9b2.jpg"><img src="images/01.jpg"><img src="images/2728.jpg"><img src="images/20160425104856.jpg"><img src="images/bei4.jpg"></div>
+        <div class="c"><img src="images/bei5.gif"></div>
+    </div>
+    <div id="top">
+    	<div id="menu">
+        	<ul>
+            	<li>美食</li>
+                <li>美景</li>
+                <li>文化</li>
+                <li>发展历程</li>
+            </ul>
+        </div>
+        <div class="eat" style="display:block;">
+        	<ul>
+            	<li><img src="images/08c8.gif"><span>北京烤鸭</span><p class="font02">&nbsp;&nbsp;北京烤鸭是具有世界声誉的北京著名菜式，用料为优质肉食鸭北京鸭，果木炭火烤制，色泽红润，肉质肥而不腻。北京烤鸭分为两大流派，而北京最著名的烤鸭店即是两派的代表。</p></li>
+                <li><img src="images/2168.jpg"><span>驴打滚</span><p class="font02">&nbsp;&nbsp;豆面糕又称驴打滚，是北京小吃中的古老品种之一。制作时将蒸熟的黄米面外沾上黄豆粉面擀成皮，然后抹上赤豆沙馅卷起来，切成小块，撒上白糖即可。制作时要求馅卷得均匀，外表呈黄色，特点是香、甜、粘，有浓郁的黄豆粉香味儿。</p></li>
+                <li><img src="images/bei12.jpg"><span>老北京糖葫芦</span><p class="font02">&nbsp;&nbsp;老北京糖葫芦是北京特色甜品，冬日里，总会有人推着小车走街串巷去卖它。它里头是酸溜溜的山楂，外头被一层甜甜的脆脆的糖包裹着，吃起来酸中带甜，是小孩子的不二美食。</p></li>
+                <li><img src="images/0d58.gif"><span>天福号酱肘子</span><p class="font02">&nbsp;&nbsp;它从200年前创业至今盛名不减，令人称奇。“天福号”酱肘子肉皮酱紫油亮，鲜香四溢；肉食入口无油腻之感，回味长久。美食扬名后世，创始人刘德山功不可没。</p></li>
+            </ul>
+        </div>
+        <div class="eat">
+        	<ul>
+            	<li><img src="images/bei3.jpg"><span>天安门</span><p class="font02">&nbsp;&nbsp;中华人民共和国的象征。坐落在中华人民共和国首都——北京市的中心、故宫的南端，与天安门广场隔长安街相望。是明清两代北京皇城的正门。</p></li>
+                <li><img src="images/bei11.jpg"><span>天坛</span><p class="font02">&nbsp;&nbsp;天坛是北京“天地日月”诸坛之首，是我国和世界上现存最大的古代祭祀性建筑群，始建于明永乐十八年，是一座典型坛庙，是明清两代皇帝祭天祈谷的场所。</p></li>
+                <li><img src="images/bei15.jpg"><span>颐和园</span><p class="font02">&nbsp;&nbsp;颐和园，北京古代皇家园林，前身为清漪园，坐落在北京海淀区，与圆明园毗邻。它是以昆明湖、万寿山为基址，以杭州西湖为蓝本，汲取江南园林的设计手法而建成的一座大型山水园林，也是现存最完整的一座皇家行宫御苑，被誉为“皇家园林博物馆”。</p></li>
+                <li><img src="images/0.jpg"><span>鸟巢</span><p class="font02">&nbsp;&nbsp;鸟巢位于北京奥林匹克公园中心区南部，为2008年北京奥运会的主体育场。举行了奥运会、残奥会开闭幕式、田径比赛及足球比赛决赛。奥运会后成为北京市民参与体育活动及享受体育娱乐的大型专业场所，并成为地标性的体育建筑和奥运遗产。</p></li>
+            </ul>
+        </div>
+        <div class="eat">
+        	<ul>
+            	<li><img src="images/d658.jpg"><span>萧敬腾演唱会</span><p class="font02">&nbsp;&nbsp;在北京，许多明星，歌手等都举办过演唱会，这幅图是萧敬腾在2012年举办演唱会时的场景。场面宏大，具有十足的霸气。北京，是艺人们梦想开始的地方。</p></li>
+                <li><img src="images/a658.jpg"><span>国际马拉松比赛</span><p class="font02">&nbsp;&nbsp;2014北京国际马拉松赛由中国田径协会、北京市体育局主办，于2014年10月19日上午8点正式开始，起点为天安门广场，共设半程跑、全程跑两个项目，半程终点为知春路西口以东300米处，全程重点为奥林匹克公园景观大道。最终埃塞俄比亚选手包揽了男女赛冠、亚军。</p></li>
+                <li><img src="images/7b58.jpg"><span>设计-中国</span><p class="font02">&nbsp;&nbsp; 2011年，北京国际设计周与清华大学“首届北京国际设计三年展”合作，共同举办以“设计北京”为主题的“2011北京国际设计周暨首届北京国际设计三年展”。活动由开幕式、北京设计论坛、主题展览、主宾城市、设计之旅、年度设计奖六项内容组成。</p></li>
+                <li><img src="images/2c8.gif"><span>国际芭蕾暨编舞比赛 </span><p class="font02">&nbsp;&nbsp;此次比赛为芭蕾艺术与普通观众之间打开了一扇沟通交流的大门，让更多的观众能够了解到芭蕾艺术不为人知的一面，见证了芭蕾舞者成长中的重要时刻。</p></li>
+            </ul>
+        </div>
+        <div class="eat">
+        	<ul>
+            	<li><img src="images/b58.jpg"><span>1920年</span><p class="font02">&nbsp;&nbsp;这是北京1920年的建筑及状况，当时正值第一次世界大战结束两年光景，当时的经济发展及文化发展也是相当缓慢的。透过黑白照片的缩影，大家可以了解到当时人民的生活状况。</p></li>
+                <li><img src="images/7(3).jpg"><span>1953年</span><p class="font02">&nbsp;&nbsp;北京第二次仿古建筑高潮（1952-1956年），图为友谊宾馆。1952年新中国完成了三年经济恢复的工作。开始第一个五年经济计划，这时期在北京出现了一批“大屋顶”式的仿古建筑，到1955年突然销声匿迹，形成中国现代史上第二次仿古建筑高潮。</p></li>
+                <li><img src="images/01.jpg"><span>1980年</span><p class="font02">&nbsp;&nbsp;图为北京天主教东堂，1807年（喜庆十二年）神父们因搬运堂内图书，引起火灾，将房屋烧毁，教堂无恙。不久，教堂被责令拆除，东堂遂废。1884年经田类思主教向国外募捐巨款，重建大堂。1900年6月13日再次被毁，1904年又重建，即今之天主堂。</p></li>
+                <li><img src="images/a458.jpg"><span>现代</span><p class="font02">&nbsp;&nbsp;如今的北京发展迅猛，聚集了各个地区各个国家的人们，建筑也更加的趋向高，大的风格。尤其是夜景，在绚丽的灯光照射下，显得尤为漂亮。</p></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

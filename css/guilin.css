@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background:url(../images/6301.jpg);
+}
+#btn1{
+	background: rgb(250,150,20);
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.top{
+	width: 800px;
+	height: 170px;
+	background:url(../images/gui22.jpg) no-repeat;
+	background-position:right;
+	margin: auto;
+}
+.font01{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:6em;
+	font-weight:bold;
+	margin-left:25px;
+	letter-spacing:13px;
+	color:#639;
+	line-height:160px;
+}
+.font02{
+	font-family:"宋体";
+	font-size:13px;
+	color:#FFF;
+	margin-top:5px;
+	line-height:14px;
+}
+span{
+	font-family:"宋体";
+	font-size:15px;
+	color:#C00;
+	margin-left:60px;
+}
+.box{
+	width:830px;
+	height:700px;
+	margin-left:230px;
+	float:left;
+}
+.main1,.main2,.main3{
+	width:240px;
+	height:220px;
+	border:2px solid #E7E7E7;
+	margin-top:20px;
+	background:#BC79FF;
+	opacity:.9;
+	float:left;
+}
+.main1 img,.main2 img,.main3 img{
+	width:240px;
+	height:130px;
+}
+.main1{
+	margin-left:70px;
+}
+
+.main4,.main5,.main6{
+	width:240px;
+	height:220px;
+	border:2px solid #E7E7E7;
+	background:#BC79FF;
+	opacity:.9;
+	float:left;
+}
+.main4 img,.main5 img,.main6 img{
+	width:240px;
+	height:130px;
+}
+.main4{
+	margin-left:70px;
+}
+.main7,.main8,.main9{
+	width:240px;
+	height:220px;
+	border:2px solid #E7E7E7;
+	background:#BC79FF;
+	opacity:.9;
+	float:left;
+}
+.main7 img,.main8 img,.main9 img{
+	width:240px;
+	height:130px;
+}
+.main7{
+	margin-left:70px;
+}
+

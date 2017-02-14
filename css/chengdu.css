@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background:#F6F6F6;
+}
+#btn1{
+	background: rgb(250,150,20);
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.top{
+	width:940px;
+	height:217px;
+	margin:auto;
+}
+.mid{
+	width:940px;
+	height:850px;
+	margin:auto;
+}
+.right{
+	width:692px;
+	height:850px;
+	background:url(../images/ght_2.gif) no-repeat;
+	float:left;
+}
+.rtop1{
+	width:240px;
+	height:200px;
+	background:#CCC;
+	border:1px solid #808080;
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	margin:180px 60px;
+	float:left;
+}
+.rtop2{
+	width:240px;
+	height:200px;
+	background:#CCC;
+	border:1px solid #808080;
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	margin:180px 0px;
+	float:left;
+}
+.rmid1{
+	width:240px;
+	height:200px;
+	background:#CCC;
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	border:1px solid #808080;
+	margin:-160px 60px;
+	float:left;
+}
+.rmid2{
+	width:240px;
+	height:200px;
+	background:#CCC;
+	border:1px solid #808080;
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	margin:-160px 362px;
+	float:left;
+}
+.rbot1{
+	width:240px;
+	height:200px;
+	background:#CCC;
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	border:1px solid #808080;
+	margin:70px 60px;
+	float:left;
+}
+.rbot2{
+		width:240px;
+	height:200px;
+	background:#CCC;
+	border:1px solid #808080;
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	margin:-272px 362px;
+	float:left;
+}
+.rtop1 img,.rtop2 img,.rmid1 img,.rmid2 img,.rbot1 img,.rbot2 img{
+	width:230px;
+	height:190px;
+	padding:5px;
+}
+.left{
+	width:246px;
+	height:850px;
+	background:url(../images/temp.jpg) no-repeat;
+	float:left;
+}
+.zi{
+	width:244px;
+	height:630px;
+	border:1px solid #666;
+	border-radius:20px 20px;
+	margin-top:10px;
+}
+.font01{
+	font-family:"宋体";
+	font-size:24px;
+	font-weight:bold;
+	color:#C00;
+	line-height:50px;
+	text-shadow:1px 1px 1px #FFA4A4;
+	text-align:center;
+}
+.font02{
+	font-size:16px;
+	font-family:"宋体";
+	color:#009B4E;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #FFFF99;
+	line-height:26px;
+}
+.left img {
+	margin-top:70px;
+}
+.bottom{
+	width:940px;
+	height:99px;
+	margin:auto;
+	background:url(../images/te.jpg);
+}

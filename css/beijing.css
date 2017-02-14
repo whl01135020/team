@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+.font01{
+	font-family:"宋体";
+	font-size:16px;
+	color:#FFF;
+}
+#tittle{
+	width:100%;
+	height:400px;
+	background:#8080C0;
+}
+#top{
+	width:100%;
+	height:400px;
+	background:#ff9393;
+}
+#btn1{
+	background: rgb(250,150,20);
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.a{
+	width:260px;
+	height:300px;
+	margin:30px 50px;
+	float:left;
+}
+.c{
+	width:300px;
+	height:260px;
+	margin:30px 0px;
+	float:left;
+}
+.c img {
+	width:300px;
+	height:260px;
+}
+.b{
+	width:500px;
+	height:300px;
+	margin-top:30px;
+	float:left;
+}
+.b img {
+	width:120px;
+	height:120px;
+	margin-top:10px;
+	margin-left:10px;
+}
+#menu{
+	width:1000px;
+	height:40px;
+}
+#menu ul{
+	width:1000px;
+	height:40px;
+	list-style:none;
+	background:#FFFF4D;
+	position:relative;
+	left:150px;
+}
+#menu ul li{
+	width:249px;
+	height:40px;
+	display:block;
+	border-right:1px solid #FFF;
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#0080FF;
+	text-align:center;
+	line-height:40px;
+	float:left;
+}
+
+#menu ul li:hover{
+	background:#50d1be;
+	color:#FFF;
+}
+.eat{
+	width:1200px;
+	height:335px;
+	border:1px dashed;
+	display:none;
+	opacity:.8;
+	margin:3px auto;
+}
+
+
+.eat ul{
+	width:1200px;
+	height:330px;
+	list-style:none;
+}
+.eat ul li{
+	width:294px;
+	height:330px;
+	margin:3px;
+	float:left;
+}
+.eat ul li img{
+	width:280px;
+	height:210px;
+	margin-left:6px;
+}
+.font02{
+	font-family:"宋体";
+	font-size:13px;
+	color:#FFF;
+	margin-top:3px;
+	line-height:15px;
+}
+span{
+	font-family:"宋体";
+	font-size:15px;
+	color:#C00;
+	margin-left:105px;
+}
+	
